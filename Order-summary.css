@@ -1,0 +1,111 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   padding: 30p 15px;
+}
+.card{
+   max-width: 480px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border: #5d6a87;
+   border-radius: 20px;
+  
+   padding-top: 100px;
+
+}
+.illustration{
+   width: 100%;
+   height:180px;
+   background-position: center top;
+}
+.content{
+   text-align: center;
+   padding: 45px 50px 50px;
+}
+h1{
+   color: hsl(0, 11%, 2%);
+   font-size: 25px;
+   margin-bottom: 25px;
+   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+   
+}
+.para{
+   color: hsl(222, 6%, 34%);
+   font-size: 16px;
+   line-height: 1.7;
+   margin-bottom: 35px;
+}
+.plan{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   background-color:hsl(225, 26%, 77%) ;
+   border-radius: 15px;
+   margin-bottom: 30px;
+   padding: 14px;
+}
+.music-icon{
+width: 65px;
+height: 65px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.plan-info{
+   margin-left: 8px;
+   flex:1 ;
+}
+.plan-info h2{
+   color: hsl(0, 9%, 7%);
+   font-size: 18px;
+   margin-bottom: 8px;
+
+}
+.plan-info p{
+   color: hsl(222, 6%, 34%);
+   font-size: 16px;
+   margin-bottom: 8px;
+}
+.link{
+   text-decoration: none;
+   color: hsl(245, 75%, 52%);
+   font-size: 16px;
+   font-weight: bold;
+
+}
+.link:hover{
+   color: hsl(245, 58%, 61%);
+}
+.payment{
+   width: 100%;
+   border: 2px;
+   border: radius 15px;
+   padding: 18px;
+   background-color: hsl(245, 75%, 52%);
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+   cursor: pointer;
+   box-shadow: 0 15px 25px rgba(64, 50, 223, 0.25);
+}
+.cancel{
+   display: inline-block;
+   margin-top: 30px;
+   color: #5d6a87;
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: none;
+
+}
+.cancel:hover{
+   color:hsl(245, 75%, 52%);
+}
